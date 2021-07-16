@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+# Getting Started with Highlighter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To use the word embedding script at `embeddings.py`, you'll need to `pip install --upgrade gensim`. You'll also need to [download and set a model](https://github.com/3Top/word2vec-api).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `python embeddings.py`
+
+Generates similarities between words in a `passage` via word2vec and outputs them a `similarities.json` file. TODO: make it take file arguments for the passage, model, output, etc.
 
 ### `npm start`
 
