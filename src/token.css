@@ -1,0 +1,8 @@
+.token, .refToken {
+    display: inline-block;
+    padding: 5px;
+}
+
+.refToken {
+    color: white;
+}

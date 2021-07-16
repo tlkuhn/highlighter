@@ -1,0 +1,23 @@
+.highlighterWidget {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+}
+
+.instructions {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.highlightText {
+    background-color: white;
+    color: black;
+    line-height: 1;
+    padding: 15px;
+}
